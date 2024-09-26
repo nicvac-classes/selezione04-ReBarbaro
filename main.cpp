@@ -2,10 +2,25 @@
 using namespace std;
 
 int main() {
-    string nome;
-    cout << "Inserisci il tuo nome: ";
-    cin >> nome;
-    cout << "Ciao " <<nome<< "!" << endl;
+    float num1,num2,num3,max;
+    cout<<"ins num1 "<<endl;
+    cin>>num1;
+    cout<<"ins num2 "<<endl;
+    cin>>num2;
+    cout<<"ins num3 "<<endl;
+    cin>>num3;
+    if(num1>num2){
+        if(num1>num3){
+            max=num1;
+}else{
+   max=num3;
 }
-
-//LEGGERE LE ISTRUZIONI NEL FILE README.md
+   }else{
+    if(num2>num3){
+        max=num2;
+        }else{
+            max=num3;
+           }
+            }
+            cout<<"il numero massimo é "<<max<<endl;
+            }
